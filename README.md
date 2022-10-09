@@ -1,2 +1,2 @@
-# Carbon Emission Trends in Machine Learning
-This repository contains datapoints of time interval of 09/2022-10/2022 of several common ML tasks, describing their corresponding carbon emission, together with the number of downloads as occur at the Huggingface website.
+# Neural Language Model Milestones
+This repository contains datapoints of time interval between 1986-2021 of prominent milestones in the evolusion of Neural Language Models describing, in particular, their corresponding training size. This dataset is aimed to help understand and possibly predict the trajectory of dataset size in the near future.
