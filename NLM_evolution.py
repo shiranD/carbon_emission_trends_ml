@@ -28,7 +28,7 @@ est = ols_model.fit()
 out = est.conf_int(alpha=0.05, cols=None)
 pred = est.get_prediction(X).summary_frame()
 
-#plot confidence interval
+# plot confidence interval
 ax1.plot(x,np.exp(pred['mean_ci_lower']),linestyle='--',color='blue')
 ax1.plot(x,np.exp(pred['mean_ci_upper']),linestyle='--',color='blue')
 ax1.grid(axis='y')
