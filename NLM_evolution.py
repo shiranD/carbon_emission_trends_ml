@@ -31,5 +31,5 @@ ax1.plot(x,np.exp(pred['mean_ci_lower']),linestyle='--',color='blue')
 ax1.plot(x,np.exp(pred['mean_ci_upper']),linestyle='--',color='blue')
 ax1.grid(axis='y')
 textstr = "y=%.6fx+%.6f"%(coefs[0],coefs[1])
-fname = "/Users/shdu9019/Documents/cv/next_place/epoch/code/neural_language_models_evolution"
+fname = TBD
 plt.savefig(fname, dpi='figure')
