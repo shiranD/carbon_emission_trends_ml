@@ -1,0 +1,91 @@
+model name,citation,year,training size (GB),num of parameters,dataset details,goal
+PALM,"@article{chowdhery2022palm,
+  title={Palm: Scaling language modeling with pathways},
+  author={Chowdhery, Aakanksha and Narang, Sharan and Devlin, Jacob and Bosma, Maarten and Mishra, Gaurav and Roberts, Adam and Barham, Paul and Chung, Hyung Won and Sutton, Charles and Gehrmann, Sebastian and others},
+  journal={arXiv preprint arXiv:2204.02311},
+  year={2022}
+}",2022,1560,540B,(various sources),
+Gopher,"@article{rae2021scaling,
+  title={Scaling language models: Methods, analysis \& insights from training gopher},
+  author={Rae, Jack W and Borgeaud, Sebastian and Cai, Trevor and Millican, Katie and Hoffmann, Jordan and Song, Francis and Aslanides, John and Henderson, Sarah and Ring, Roman and Young, Susannah and others},
+  journal={arXiv preprint arXiv:2112.11446},
+  year={2021}
+}",2021,10551,280B,(various sources),
+gpt3,"@article{brown2020language,
+  title={Language models are few-shot learners},
+  author={Brown, Tom and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared D and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and others},
+  journal={Advances in neural information processing systems},
+  volume={33},
+  pages={1877--1901},
+  year={2020}
+}",2020,753,175B,(various sources),
+gpt2,"@article{radford2019language,
+  title={Language models are unsupervised multitask learners},
+  author={Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya and others}
+}",2019,40,1.5B,"@misc{Gokaslan2019OpenWeb,
+    title={OpenWebText Corpus},
+    author={Aaron Gokaslan*, Vanya Cohen*, Ellie Pavlick, Stefanie Tellex},
+    howpublished{\url{http://Skylion007.github.io/OpenWebTextCorpus}},
+    year={2019}
+} webtext",
+gpt,"@article{radford2018improving,
+  title={Improving language understanding by generative pre-training},
+  author={Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya and others},
+  year={2018},
+  publisher={OpenAI}
+}",2018,5,117M,https://towardsdatascience.com/examining-the-transformer-architecture-part-1-the-openai-gpt-2-controversy-feceda4363bb Books dataset,
+transformer,"@article{vaswani2017attention,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}",2017,4.5,215M," convertion to # of words, and to GiB, based on the paper",
+RNN w attention,"@inproceedings{bahdanau2015neural,
+  title={Neural machine translation by jointly learning to align and translate},
+  author={Bahdanau, Dzmitry and Cho, Kyung Hyun and Bengio, Yoshua},
+  booktitle={3rd International Conference on Learning Representations, ICLR 2015},
+  year={2015}
+}",2015,0.7,,,
+LSTM (seq2seq),"@article{sutskever2014sequence,
+  title={Sequence to sequence learning with neural networks},
+  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},
+  journal={Advances in neural information processing systems},
+  volume={27},
+  year={2014}
+}",2014,4,380M,FR-EN wmt,
+Neural network language models,"@article{bengio2000neural,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal},
+  journal={Advances in neural information processing systems},
+  volume={13},
+  year={2000}
+}",2000,0.0662,,Brown + Hansard,"in contrast, here we push this idea to a large scale, and concentrate on
+learning a statistical model of the distribution of word sequences, rather than learning the
+role of words in a sentence"
+PDP neural network (back prop),"@article{miikkulainen1991natural,
+  title={Natural language processing with modular PDP networks and distributed lexicon},
+  author={Miikkulainen, Risto and Dyer, Michael G},
+  journal={Cognitive Science},
+  volume={15},
+  number={3},
+  pages={343--399},
+  year={1991},
+  publisher={Wiley Online Library}
+}",1991,0.000014,,,role of words
+RNN: two hidden layer perceptron (back prop),"@article{elman1990finding,
+  title={Finding structure in time},
+  author={Elman, Jeffrey L},
+  journal={Cognitive science},
+  volume={14},
+  number={2},
+  pages={179--211},
+  year={1990},
+  publisher={Wiley Online Library}
+}",1990,0.000003095,,,
+multi layer perceptron (no back prop),"@article{rumelhart1986learning,
+  title={On learning the past tenses of English verbs},
+  author={Rumelhart, David E and McClelland, James L},
+  year={1986},
+  publisher={Cambridge, MA: MIT Press}
+}",1986,2.00E-06,,,verbs inflection
