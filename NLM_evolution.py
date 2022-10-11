@@ -1,10 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import statsmodels.api as sm
+from pandas import read_csv
 
-# datapoints (x = year, y = training dataset size)
-x = [1986, 1990, 1991, 2000, 2014, 2015, 2017, 2018, 2019, 2020, 2021, 2022]
-y = [0.000002, 0.000003095, 0.000014, 0.0662, 4, 0.7, 4.5, 5, 40, 753, 10551, 1560]
+# reading CSV file
+data = read_csv("neural_language_models.csv")
+
+# converting column data to list
+x = data['year'].tolist()
+y = data['training size (GB)'].tolist()
 
 fig, ax1 = plt.subplots(1, 1, figsize=(8,6))
 
